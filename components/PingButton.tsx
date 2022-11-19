@@ -4,12 +4,12 @@ import styles from '../styles/PingButton.module.css'
 export const PingButton: FC = () => {
 
     const onClick = () => {
-        console.log('Ping!')
+        console.log('Button')
     }
     
 	return (
 		<div className={styles.buttonContainer} onClick={onClick}>
-			<button className={styles.button}>Ping!</button>
+			<button className={styles.button}>Button</button>
 		</div>
 	)
 }
